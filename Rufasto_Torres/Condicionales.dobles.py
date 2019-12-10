@@ -109,3 +109,25 @@ if(promedio>16):
 else:
     print(estudiante, ", no perteneces ")
 #fin_if
+
+
+#Ejercicio06
+#Programa dias de vacaciones
+import os
+#Declaracion de variables
+obrero,empres,anios_trabajando="","",0
+
+#INPUT via OS
+obrero=os.sys.argv[1]
+empresa=os.sys.argv[2]
+anios_trabajando=int(os.sys.argv[3])
+
+#PROCESING
+#Si anios trabajando supera los 5 anios
+#mostrar "disfrute sus vacaciones"
+#Caso contrario mostrar "no dispone de vacaciones"
+if(anios_trabajando>5):
+    print(obrero, ", disfrute sus vacaciones ")
+else:
+    print(obrero, ", no dispone de vacaciones ")
+#fin_if
