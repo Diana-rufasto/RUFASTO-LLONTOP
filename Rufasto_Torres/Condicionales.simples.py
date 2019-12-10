@@ -61,3 +61,25 @@ total=float(os.sys.argv[4])
 if(total<19.99):
     print(paciente,"paciente con delgadez severa")
 
+
+#Ejercicio04
+#programa con imc normal
+import os
+#declara
+paciente=""
+peso=0.0
+talla=0.0
+total=0.0
+
+#Input via os
+paciente=os.sys.argv[1]
+peso=float(os.sys.argv[2])
+talla=float(os.sys.argv[3])
+total=float(os.sys.argv[4])
+
+#procesing
+#Si el total es mayor a 20.00
+#mostrar "tiene peso normal"
+if(total>20.00):
+    print(paciente,"tiene peso normal")
+
