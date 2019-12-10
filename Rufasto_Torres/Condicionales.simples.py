@@ -142,3 +142,23 @@ total_pedido=float(os.sys.argv[3])
 #mostrar "pedido aprobado"
 if(total_pedido>120.00):
     print(consultora,"pedido aprobado")
+
+
+#Ejercicio08
+#programa de liquidacion
+import os
+#declara
+trabajador=""
+empresa=""
+tiempo_trabajo=0
+
+#Input via os
+trabajador=os.sys.argv[1]
+empresa=os.sys.argv[2]
+tiempo_trabajo=int(os.sys.argv[3])
+
+#procesing
+#Si el tiempo trabajo es mayor a 3 anios
+#mostrar "recibira liquidacion"
+if(tiempo_trabajo>3):
+    print(trabajador,"recibira liquidacion")
