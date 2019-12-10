@@ -154,3 +154,24 @@ else:
     print(consultora, ", no puede pasar pedido")
 #fin_if
 
+
+#Ejercicio08
+#Programa de liquidacion
+import os
+#Declaracion de variables
+trabajador,empresa,tiempo_trabajo="","",0
+
+#INPUT via OS
+trabajador=os.sys.argv[1]
+empresa=os.sys.argv[2]
+tiempo_trabajo=int(os.sys.argv[3])
+
+#PROCESING
+#Si el tiempo trabajo es mayor a 3 anios
+#mostrar "recibira liquidacion"
+#Caso contrario mostrar "no procede a la liquidacion"
+if(tiempo_trabajo>3):
+    print(trabajador, ", recibira liquidacion ")
+else:
+    print(trabajador, ", no procede a la liquidacion")
+#fin_if

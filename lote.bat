@@ -65,3 +65,8 @@ python Rufasto_Torres/Condicionales.dobles.py "estela" "colegio aplicacion" 8
 python Rufasto_Torres/Condicionales.dobles.py "yeral" "esika" 145.00
 python Rufasto_Torres/Condicionales.dobles.py "nayeli" "dupree" 80.00
 python Rufasto_Torres/Condicionales.dobles.py "stefany" "leonisa" 210.90
+
+python Rufasto_Torres/Condicionales.dobles.py "nikol" "el paraiso" 5
+python Rufasto_Torres/Condicionales.dobles.py "carmen" "rey" 8
+python Rufasto_Torres/Condicionales.dobles.py "karina" "cerro prieto" 2
+
