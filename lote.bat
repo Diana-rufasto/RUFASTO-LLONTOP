@@ -101,3 +101,7 @@ python Rufasto_Torres/Condicionales.multiples.py 20 17 18
 python Rufasto_Torres/Condicionales.multiples.py "marito" 4 5 13
 python Rufasto_Torres/Condicionales.multiples.py "charo" 2 3 16
 python Rufasto_Torres/Condicionales.multiples.py "rosario" 5 9 15
+
+python Rufasto_Torres/Condicionales.multiples.py "monica" "labiales" 8 15.90 "perfume" 2 45.90
+python Rufasto_Torres/Condicionales.multiples.py "mili" "talco" 2 23.90 "sombras" 1 49.90
+python Rufasto_Torres/Condicionales.multiples.py "yesica" "colonia" 4 32.90 "collar" 2 24.90

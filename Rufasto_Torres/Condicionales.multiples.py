@@ -145,3 +145,30 @@ if(total >=4 and total <=6):
 #Si el total >=1 y 3 (no dispone de vacaciones)
 if(total>=1 and total <=3):
     print(trabajador, ", no dispone de vacaciones ")
+
+
+#Ejercicio07
+#Programa de pasar pedido
+import os
+#Declaracion de variables
+cliente,producto1,cantidad_prod1,costo_uni_prod1,producto2,cantidad_prod2,costo_uni_prod2,total="","",0,0.0,"",0,0.0,0.0
+
+#INPUT via OS
+cliente=os.sys.argv[1]
+producto1=os.sys.argv[2]
+cantidad_prod1=int(os.sys.argv[3])
+costo_uni_prod1=float(os.sys.argv[4])
+producto2=os.sys.argv[5]
+cantidad_prod2=int(os.sys.argv[6])
+costo_uni_prod2=float(os.sys.argv[7])
+
+#PROCESING
+total=(cantidad_prod1*costo_uni_prod1)+(cantidad_prod2*costo_uni_prod2)
+
+#Condicion multiple
+#Si el total => 120.00 y 180.00 (pedido aprobado)
+if(total>=120.00 and total <=180.00):
+    print(cliente, " pedido aprobado ")
+#Si el total >=70.00 y 110.00 (no puede pasar pedido)
+if(total>=70.00 and total <=110.00):
+    print(cliente, " no puede pasar pedido")
