@@ -73,3 +73,7 @@ python Rufasto_Torres/Condicionales.dobles.py "karina" "cerro prieto" 2
 python Rufasto_Torres/Condicionales.dobles.py "juana" 26 300.00
 python Rufasto_Torres/Condicionales.dobles.py "ivanna" 12 128.50
 python Rufasto_Torres/Condicionales.dobles.py "isabel" 8 230.00
+
+python Rufasto_Torres/Condicionales.dobles.py "david" 7.30 60
+python Rufasto_Torres/Condicionales.dobles.py "santos" 8.10 32
+python Rufasto_Torres/Condicionales.dobles.py "antony" 10.30 46

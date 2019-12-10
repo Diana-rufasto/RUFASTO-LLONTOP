@@ -197,3 +197,25 @@ if(monto_pagar>200.00):
 else:
     print(cliente, ", gracias por su compra ")
 #fin_if
+
+
+#Ejercicio10
+#Programa personal de avance de ajies
+import os
+#Declaracion de variables
+obrero,horas,total_ajies="",0.0,0
+
+#INPUT via OS
+obrero=os.sys.argv[1]
+horas=float(os.sys.argv[2])
+total_ajies=int(os.sys.argv[3])
+
+#PROCESING
+#Si el total de ajies es mayor a 40 ajies
+#mostrar "es personal de avance"
+#Caso contrario mostrar "esfuerzate en tu trabajo"
+if(total_ajies>40):
+    print(obrero, ", es personal de avance ")
+else:
+    print(obrero, ", esfuerzate en tu trabajo ")
+#fin_if
