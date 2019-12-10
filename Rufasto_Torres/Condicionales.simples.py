@@ -122,3 +122,23 @@ anios_trabajando=int(os.sys.argv[3])
 #mostrar "disfrute sus vacaciones"
 if(anios_trabajando>5):
     print(obrero,"disfrute sus vacaciones")
+
+
+#Ejercicio07
+#programa de pasar pedido
+import os
+#declara
+consultora=""
+empresa=""
+total_pedido=0.0
+
+#Input via os
+consultora=os.sys.argv[1]
+empresa=os.sys.argv[2]
+total_pedido=float(os.sys.argv[3])
+
+#procesing
+#Si el total pedido supera a 120.00
+#mostrar "pedido aprobado"
+if(total_pedido>120.00):
+    print(consultora,"pedido aprobado")
