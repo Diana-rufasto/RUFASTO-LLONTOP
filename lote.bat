@@ -113,3 +113,7 @@ python Rufasto_Torres/Condicionales.multiples.py "rosario" "helado" 4 5.00
 python Rufasto_Torres/Condicionales.multiples.py 13 14 15 16 14
 python Rufasto_Torres/Condicionales.multiples.py 12 13 15 16 13
 python Rufasto_Torres/Condicionales.multiples.py 18 17 13 20 17
+
+python Rufasto_Torres/Condicionales.multiples.py "lisbet" 23 8
+python Rufasto_Torres/Condicionales.multiples.py "maykol" 4 5
+python Rufasto_Torres/Condicionales.multiples.py "franco" 15 6

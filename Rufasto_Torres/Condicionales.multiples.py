@@ -222,3 +222,27 @@ if ( prom >=17 and prom <=20 ):
 # Si el prom 12  y 16 (Bien)
 if ( prom >= 12 and prom <= 16):
     print("Bien")
+
+
+#Ejercicio10
+#Programa personal de avance de ajies
+import os
+
+#Declaracion de variables
+obrero,total_de_ajies_por_min,horas_trabajadas,total="",0,0,0
+
+#INPUT via OS
+obrero=os.sys.argv[1]
+total_de_ajies_por_min=int(os.sys.argv[3])
+horas_trabajadas=int(os.sys.argv[4])
+
+#PROCESING
+total=int(round (total_de_ajies_por_min*horas_trabajadas),0)
+
+#Condicion multiple
+#Si el total => 40 y 50 (es personal de avance)
+if(total>=40 and total <=50):
+    print(obrero, "es personal de avance")
+#Si el total 15 y 39 (esfuerzate en tu trabajo)
+if(total >=15 and total <=39):
+    print(obrero, "esfuerzate en tu trabajo")
