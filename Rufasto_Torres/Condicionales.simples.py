@@ -83,3 +83,23 @@ total=float(os.sys.argv[4])
 if(total>20.00):
     print(paciente,"tiene peso normal")
 
+
+#Ejercicio05
+#programa tercio superior
+import os
+#declara
+estudiante=""
+universidad=""
+promedio=0
+
+#Input via os
+estudiante=os.sys.argv[1]
+universidad=os.sys.argv[2]
+promedio=int(os.sys.argv[3])
+
+#procesing
+#Si el promedio supera a 16
+#mostrar "perteneces al tercio superior"
+if(promedio>16):
+    print(estudiante,"perteneces al tercio superior")
+
