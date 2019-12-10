@@ -162,3 +162,25 @@ tiempo_trabajo=int(os.sys.argv[3])
 #mostrar "recibira liquidacion"
 if(tiempo_trabajo>3):
     print(trabajador,"recibira liquidacion")
+
+
+#Ejercicio09
+#programa de comprador compulsivo
+import os
+#declara
+cliente=""
+total_de_productos=0
+monto_pagar=0.0
+
+#Input via os
+cliente=os.sys.argv[1]
+total_de_productos=int(os.sys.argv[2])
+monto_pagar=float(os.sys.argv[3])
+
+#procesing
+#Si el monto pagar supera a 200.00
+#mostrar "gano un canje de 30 soles"
+if(monto_pagar>200.00):
+    print(cliente,"gano un canje de 30 soles")
+
+

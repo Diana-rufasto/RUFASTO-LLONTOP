@@ -29,3 +29,7 @@ python Rufasto_Torres/Condicionales.simples.py "fiorella" "belcorp" 248.20
 python Rufasto_Torres/Condicionales.simples.py "milagros" "beta" 5
 python Rufasto_Torres/Condicionales.simples.py "juana" "boon" 4
 python Rufasto_Torres/Condicionales.simples.py "arturo" "library" 5
+
+python Rufasto_Torres/Condicionales.simples.py "segundo rufasto" 17 356.50
+python Rufasto_Torres/Condicionales.simples.py "diana torres" 26 324.10
+python Rufasto_Torres/Condicionales.simples.py "jorge manay" 30 399.90
