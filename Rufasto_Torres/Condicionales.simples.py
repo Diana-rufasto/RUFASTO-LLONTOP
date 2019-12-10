@@ -184,3 +184,21 @@ if(monto_pagar>200.00):
     print(cliente,"gano un canje de 30 soles")
 
 
+#Ejercicio10
+#programa personal de avance de ajies
+import os
+#declara
+obrero=""
+horas=0.0
+total_ajies=0
+
+#Input via os
+obrero=os.sys.argv[1]
+horas=float(os.sys.argv[2])
+total_ajies=int(os.sys.argv[3])
+
+#procesing
+#Si el total de ajies es mayor a 40 ajies
+#mostrar "es personal de avance"
+if(total_ajies>40):
+    print(obrero,"es personal de avance")

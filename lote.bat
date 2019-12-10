@@ -33,3 +33,7 @@ python Rufasto_Torres/Condicionales.simples.py "arturo" "library" 5
 python Rufasto_Torres/Condicionales.simples.py "segundo rufasto" 17 356.50
 python Rufasto_Torres/Condicionales.simples.py "diana torres" 26 324.10
 python Rufasto_Torres/Condicionales.simples.py "jorge manay" 30 399.90
+
+python Rufasto_Torres/Condicionales.simples.py "ruby" 5.30 50
+python Rufasto_Torres/Condicionales.simples.py "carlos" 6.40 64
+python Rufasto_Torres/Condicionales.simples.py "piero" 8.00 100
