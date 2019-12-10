@@ -103,3 +103,22 @@ promedio=int(os.sys.argv[3])
 if(promedio>16):
     print(estudiante,"perteneces al tercio superior")
 
+
+#Ejercicio06
+#programa dias de vacaciones
+import os
+#declara
+obrero=""
+empresa=""
+anios_trabajando=0
+
+#Input via os
+obrero=os.sys.argv[1]
+empresa=os.sys.argv[2]
+anios_trabajando=int(os.sys.argv[3])
+
+#procesing
+#Si anios trabajando supera los 5 anios
+#mostrar "disfrute sus vacaciones"
+if(anios_trabajando>5):
+    print(obrero,"disfrute sus vacaciones")
