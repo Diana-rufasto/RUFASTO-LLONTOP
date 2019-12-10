@@ -131,3 +131,26 @@ if(anios_trabajando>5):
 else:
     print(obrero, ", no dispone de vacaciones ")
 #fin_if
+
+
+#Ejercicio07
+#Programa de pasar pedido
+import os
+#Declaracion de variables
+consultora,empresa,total_pedido="","",0.0
+
+#INPUT via OS
+consultora=os.sys.argv[1]
+empresa=os.sys.argv[2]
+total_pedido=float(os.sys.argv[3])
+
+#PROCESING
+#Si el total pedido supera a 120.00
+#mostrar "pedido aprobado"
+#Caso contrario mostrar "no puede pasar pedido"
+if(total_pedido>120.00):
+    print(consultora, ", pedido aprobado ")
+else:
+    print(consultora, ", no puede pasar pedido")
+#fin_if
+
