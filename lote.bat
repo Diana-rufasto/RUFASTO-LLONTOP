@@ -97,3 +97,7 @@ python Rufasto_Torres/Condicionales.multiples.py 18 17 19 20 17
 python Rufasto_Torres/Condicionales.multiples.py 18 19 16
 python Rufasto_Torres/Condicionales.multiples.py 16 13 17
 python Rufasto_Torres/Condicionales.multiples.py 20 17 18
+
+python Rufasto_Torres/Condicionales.multiples.py "marito" 4 5 13
+python Rufasto_Torres/Condicionales.multiples.py "charo" 2 3 16
+python Rufasto_Torres/Condicionales.multiples.py "rosario" 5 9 15

@@ -120,3 +120,28 @@ if ( prom >=17 and prom <=20 ):
 # Si el prom 14 y 16 (Buen trabajo)
 if ( prom >= 14 and prom <= 16):
     print("Buen trabajo")
+
+
+#Ejercicio06
+#Programa dias de vacaciones
+import os
+
+#Declaracion de variables
+trabajador,anios,meses,dias,total="",0,0,0,0.0
+
+#INPUT via OS
+trabajador=os.sys.argv[1]
+anios=int(os.sys.argv[2])
+meses=int(os.sys.argv[3])
+dias=int(os.sys.argv[4])
+
+#PROCESING
+total= ((anios*365)+(meses*30)+dias)
+
+#Condicion multiple
+#Si el total => 4 y 6 (disfrute sus vacaciones)
+if(total >=4 and total <=6):
+    print(trabajador, ", disfrute sus vacaciones ")
+#Si el total >=1 y 3 (no dispone de vacaciones)
+if(total>=1 and total <=3):
+    print(trabajador, ", no dispone de vacaciones ")
