@@ -89,3 +89,7 @@ python Rufasto_Torres/Condicionales.multiples.py "mariela" 70.34 1.63
 python Rufasto_Torres/Condicionales.multiples.py "daniela" 34.54 1.45 16.45
 python Rufasto_Torres/Condicionales.multiples.py "jenn" 40.20 1.30 14.00
 python Rufasto_Torres/Condicionales.multiples.py "alejandro" 34.26 1.43 15.34
+
+python Rufasto_Torres/Condicionales.multiples.py 18 19 13 16 14
+python Rufasto_Torres/Condicionales.multiples.py 12 13 12 16 13
+python Rufasto_Torres/Condicionales.multiples.py 18 17 19 20 17

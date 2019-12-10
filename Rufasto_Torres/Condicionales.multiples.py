@@ -70,3 +70,29 @@ if(total>=15.99 and total <=19.99):
 #Si el total 14.99 y 14.99 (bien tiene imc normal)
 if(total >=14.99 and total <=14.99):
     print(paciente, "bien tiene imc normal")
+
+
+#Ejercico04
+# Programa para calcular 5 nota de ingles
+import os
+
+# Declaracion de variables
+n1,n2,n3,n4,n5,prom=0,0,0,0,0,0
+
+# INPUT VIA OS
+n1=int(os.sys.argv[1])
+n2=int(os.sys.argv[2])
+n3=int(os.sys.argv[3])
+n4=int(os.sys.argv[4])
+n5=int(os.sys.argv[5])
+
+# PROCESSING
+prom=int(round((n1+n2+n3+n4+n5)/5,0))
+
+# Condicion multiple
+# Si el prom => 95 y 100 (Very Good)
+if ( prom >=95 and prom <=100 ):
+    print("Very Good!")
+# Si el prom 90 y 94 (Good)
+if ( prom >= 90 and prom <= 94):
+    print("Good!")
