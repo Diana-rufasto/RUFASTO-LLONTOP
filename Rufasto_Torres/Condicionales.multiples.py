@@ -172,3 +172,27 @@ if(total>=120.00 and total <=180.00):
 #Si el total >=70.00 y 110.00 (no puede pasar pedido)
 if(total>=70.00 and total <=110.00):
     print(cliente, " no puede pasar pedido")
+
+#Ejercicio08
+#Programa de comprador compulsivo
+import os
+
+#Declaracion de variables
+cliente,producto,cant,costo_uni,total="","",0,0.0,0.0
+
+#INPUT via OS
+cliente=os.sys.argv[1]
+producto=os.sys.argv[2]
+cant=int(os.sys.argv[3])
+costo_uni=float(os.sys.argv[4])
+
+#PROCESING
+total=cant*costo_uni
+
+#Condicion multiple
+#Si el total => 200.00 y 250.00 (comprador compulsivo)
+if(total>=200.00 and total <=250.00):
+    print(cliente, "comprador complusivo ")
+#Si el total >=120.00 y 190.00 (vuelva pronto)
+if(total>=120.00 and total <=190.00):
+    print(cliente, "vuelva pronto ")
