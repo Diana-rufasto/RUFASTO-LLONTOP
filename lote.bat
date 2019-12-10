@@ -85,3 +85,7 @@ python Rufasto_Torres/Condicionales.multiples.py "auria" "calculo" 14.5 12.5 14.
 python Rufasto_Torres/Condicionales.multiples.py "diego" 56.50 1.58
 python Rufasto_Torres/Condicionales.multiples.py "flor" 66.45 1.65
 python Rufasto_Torres/Condicionales.multiples.py "mariela" 70.34 1.63
+
+python Rufasto_Torres/Condicionales.multiples.py "daniela" 34.54 1.45 16.45
+python Rufasto_Torres/Condicionales.multiples.py "jenn" 40.20 1.30 14.00
+python Rufasto_Torres/Condicionales.multiples.py "alejandro" 34.26 1.43 15.34
