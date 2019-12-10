@@ -41,3 +41,26 @@ if(total>24.99):
 else:
     print(paciente, ", tiene imc normal")
 #fin_if
+
+
+#Ejercicio03
+#programa imc con delgadez severa
+import os
+#Declaracion de variables
+paciente,peso,talla,total="",0.0,0.0,0.0
+
+#INPUT via OS
+paciente=os.sys.argv[1]
+peso=float(os.sys.argv[2])
+talla=float(os.sys.argv[3])
+total=float(os.sys.argv[4])
+
+#PROCESING
+#Si el total es menor a 19.99
+#mostrar "paciente con delgadez severa"
+#Caso contrario mostrar "bien tiene imc normal"
+if(total<19.99):
+    print(paciente, ", paciente con delgadez severa ")
+else:
+    print(paciente, ", bien tiene imc normal ")
+#fin_if
