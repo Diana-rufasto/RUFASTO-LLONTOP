@@ -49,3 +49,7 @@ python Rufasto_Torres/Condicionales.dobles.py "humberto" 55.34 1.53 23.45
 python Rufasto_Torres/Condicionales.dobles.py "katy" 43.54 1.45 18.23
 python Rufasto_Torres/Condicionales.dobles.py "yolanda" 50.20 1.30 20.40
 python Rufasto_Torres/Condicionales.dobles.py "alex" 40.26 1.53 15.34
+
+python Rufasto_Torres/Condicionales.dobles.py "alonso" 45.35 1.54 22.45
+python Rufasto_Torres/Condicionales.dobles.py "alejandra" 46.45 1.58 18.45
+python Rufasto_Torres/Condicionales.dobles.py "davor" 50.35 1.56 21.45
