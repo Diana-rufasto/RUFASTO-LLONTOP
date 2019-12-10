@@ -93,3 +93,7 @@ python Rufasto_Torres/Condicionales.multiples.py "alejandro" 34.26 1.43 15.34
 python Rufasto_Torres/Condicionales.multiples.py 18 19 13 16 14
 python Rufasto_Torres/Condicionales.multiples.py 12 13 12 16 13
 python Rufasto_Torres/Condicionales.multiples.py 18 17 19 20 17
+
+python Rufasto_Torres/Condicionales.multiples.py 18 19 16
+python Rufasto_Torres/Condicionales.multiples.py 16 13 17
+python Rufasto_Torres/Condicionales.multiples.py 20 17 18

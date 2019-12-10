@@ -96,3 +96,27 @@ if ( prom >=95 and prom <=100 ):
 # Si el prom 90 y 94 (Good)
 if ( prom >= 90 and prom <= 94):
     print("Good!")
+
+
+#Ejercico05
+# Programa para sustentar tesis
+import os
+
+# Declaracion de variables
+n1,n2,n3,n4,n5,prom=0,0,0,0,0,0
+
+# INPUT VIA OS
+n1=int(os.sys.argv[1])
+n2=int(os.sys.argv[2])
+n3=int(os.sys.argv[3])
+
+# PROCESSING
+prom=int(round((n1+n2+n3)/3,0))
+
+# Condicion multiple
+# Si el prom => 17 y  20(Tesis aprobada)
+if ( prom >=17 and prom <=20 ):
+    print("Tesis aprobada")
+# Si el prom 14 y 16 (Buen trabajo)
+if ( prom >= 14 and prom <= 16):
+    print("Buen trabajo")
