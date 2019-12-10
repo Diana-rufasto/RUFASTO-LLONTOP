@@ -196,3 +196,29 @@ if(total>=200.00 and total <=250.00):
 #Si el total >=120.00 y 190.00 (vuelva pronto)
 if(total>=120.00 and total <=190.00):
     print(cliente, "vuelva pronto ")
+
+
+#Ejercicio09
+# Programa para pasar ciclo
+import os
+
+# Declaracion de variables
+nota1,nota2,nota3,nota4,nota5,prom=0,0,0,0,0,0
+
+# INPUT VIA OS
+nota1=int(os.sys.argv[1])
+nota2=int(os.sys.argv[2])
+nota3=int(os.sys.argv[3])
+nota4=int(os.sys.argv[4])
+nota5=int(os.sys.argv[5])
+
+# PROCESSING
+prom=int(round((nota1+nota2+nota3+nota4+nota5)/5,0))
+
+# Condicion multiple
+# Si el prom => 17 y 20 (Muy bien!)
+if ( prom >=17 and prom <=20 ):
+    print("Muy bien!")
+# Si el prom 12  y 16 (Bien)
+if ( prom >= 12 and prom <= 16):
+    print("Bien")

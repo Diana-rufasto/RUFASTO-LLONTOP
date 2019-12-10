@@ -109,3 +109,7 @@ python Rufasto_Torres/Condicionales.multiples.py "yesica" "colonia" 4 32.90 "col
 python Rufasto_Torres/Condicionales.multiples.py "marylor" "leche" 50 3.30
 python Rufasto_Torres/Condicionales.multiples.py "charo" "arroz" 40 4.00
 python Rufasto_Torres/Condicionales.multiples.py "rosario" "helado" 4 5.00
+
+python Rufasto_Torres/Condicionales.multiples.py 13 14 15 16 14
+python Rufasto_Torres/Condicionales.multiples.py 12 13 15 16 13
+python Rufasto_Torres/Condicionales.multiples.py 18 17 13 20 17
