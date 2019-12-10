@@ -87,3 +87,25 @@ if(total>20.00):
 else:
     print(paciente, ", tiene que ir al medico ")
 #fin_if
+
+
+#Ejercicio05
+#Programa tercio superior
+import os
+#Declaracion de variables
+estudiante,universidad,promedio="","",0
+
+#INPUT via OS
+estudiante=os.sys.argv[1]
+universidad=os.sys.argv[2]
+promedio=int(os.sys.argv[3])
+
+#PROCESING
+#Si el promedio supera a 16
+#mostrar "perteneces al tercio superior"
+#Caso contrario mostrar "no perteneces"
+if(promedio>16):
+    print(estudiante, ", perteneces al tercio superior ")
+else:
+    print(estudiante, ", no perteneces ")
+#fin_if
