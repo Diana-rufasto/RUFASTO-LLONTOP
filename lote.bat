@@ -41,3 +41,7 @@ python Rufasto_Torres/Condicionales.simples.py "piero" 8.00 100
 python Rufasto_Torres/Condicionales.dobles.py "snaider" "computacion" 10
 python Rufasto_Torres/Condicionales.dobles.py "benjamin" "comunicacion" 14
 python Rufasto_Torres/Condicionales.dobles.py "aitana" "matematica" 15
+
+python Rufasto_Torres/Condicionales.dobles.py "claudia" 56.50 1.58 20.00
+python Rufasto_Torres/Condicionales.dobples.py "ernesto" 66.40 1.65 27.44
+python Rufasto_Torres/Condicionales.dobles.py "humberto" 55.34 1.53 23.45
