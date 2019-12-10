@@ -23,3 +23,26 @@ if ( promedio >=15.00 and promedio <=20.00 ):
 if ( promedio >= 10.5 and promedio <= 14.00):
     print(alumno, "sigue asi")
 
+
+#Ejercicio02
+#Programa imc con sobrepeso
+import os
+
+#Declaracion de variables
+paciente,peso,talla,total="",0.0,0.0,0.0
+
+#INPUT via OS
+paciente=os.sys.argv[1]
+peso=float(os.sys.argv[2])
+talla=float(os.sys.argv[3])
+
+#PROCESING
+total= float(round(( peso/(talla*talla),0)))
+
+#Condicion multiple
+#Si el total => 24.99 y 30.99 (paciente con sobrepeso)
+if(total>=24.99 and total <=30.99):
+    print(paciente, " paciente con sobrepeso ")
+#Si el total 20.00 y 24.00 (tiene imc normal)
+if(total >= 20.00 and total <= 24.00):
+    print(paciente, "tiene imc normal")

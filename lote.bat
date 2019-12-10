@@ -81,3 +81,7 @@ python Rufasto_Torres/Condicionales.dobles.py "antony" 10.30 46
 python Rufasto_Torres/Condicionales.multiples.py "saul" "logica" 16.5 14.5 18.5
 python Rufasto_Torres/Condicionales.multiples.py "pedro" "lenguaje" 14.5 19.5 14.5
 python Rufasto_Torres/Condicionales.multiples.py "auria" "calculo" 14.5 12.5 14.5
+
+python Rufasto_Torres/Condicionales.multiples.py "diego" 56.50 1.58
+python Rufasto_Torres/Condicionales.multiples.py "flor" 66.45 1.65
+python Rufasto_Torres/Condicionales.multiples.py "mariela" 70.34 1.63
